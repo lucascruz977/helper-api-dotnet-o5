@@ -22,7 +22,7 @@ HELPER OPENED API
 - Matheus Karo
 - Mauro Augusto
 
-# Grupo6:
+# Grupo6 (API Vagalume - Busca por Música):
 - Jonathan Louback
 - João Paulo
 - Arthus Bernardo Coelho
