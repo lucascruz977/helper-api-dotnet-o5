@@ -37,7 +37,7 @@ HELPER OPENED API
 - Isabele Moreira
 - Rodrigo Batista
 
-# Grupo9:
+# Grupo9 (https://github.com/PokeAPI/pokedex-promise-v2):
 - Lucas Willian Rocha
 - Isabelle Caroline
 - Carlos Henrique de Moura
