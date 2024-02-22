@@ -42,7 +42,7 @@ HELPER OPENED API
 - Isabelle Caroline
 - Carlos Henrique de Moura
 
-# Grupo10:
+# Grupo10 (https://docs.awesomeapi.com.br/api-de-moedas):
 - Gabriela Santana
 - Talita Ferreira de Lima
 - Wellington Cordeiro
