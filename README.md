@@ -54,3 +54,6 @@ HELPER OPENED API
 
 # Grupo 12
 - Wagner Cipriano da Silva
+
+# Grupo 13
+- Jefferson Azevedo Lins
