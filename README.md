@@ -50,3 +50,7 @@ HELPER OPENED API
 # Grupo 11 (Busca Informações de Bancos por parte do Nome):
 - Alex Artilha
 - Ítalo Emídio
+- Thiago Augusto de Souza
+
+# Grupo 12
+- Wagner Cipriano da Silva
