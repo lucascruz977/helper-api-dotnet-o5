@@ -32,12 +32,12 @@ HELPER OPENED API
 - Lucas Cruz
 - Fabrício Gomes
 
-# Grupo8:
+# Grupo8 ()
 - Tiago Rodrigues
 - Isabele Moreira
 - Rodrigo Batista
 
-# Grupo9 (https://github.com/PokeAPI/pokedex-promise-v2):
+# Grupo9 (https://pokeapi.co/docs/v2):
 - Lucas Willian Rocha
 - Isabelle Caroline
 - Carlos Henrique de Moura
@@ -52,8 +52,8 @@ HELPER OPENED API
 - Ítalo Emídio
 - Thiago Augusto de Souza
 
-# Grupo 12
+# Grupo 12 ()
 - Wagner Cipriano da Silva
 
-# Grupo 13
+# Grupo 13 (https://db.ygoprodeck.com/api-guide/)
 - Jefferson Azevedo Lins
