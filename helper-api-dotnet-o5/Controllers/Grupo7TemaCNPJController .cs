@@ -10,9 +10,9 @@ namespace helper_api_dotnet_o5.Controllers
     public class Grupo7TemaCNPJController : ControllerBase
     {
         private const string ENDPOINT = "https://brasilapi.com.br/api/cnpj/v1/";
-        private readonly ILogger<CountryController> _logger;
+        private readonly ILogger<Grupo7TemaCNPJController> _logger;
 
-        public Grupo7TemaCNPJController(ILogger<CountryController> logger)
+        public Grupo7TemaCNPJController(ILogger<Grupo7TemaCNPJController> logger)
         {
             _logger = logger;
         }
@@ -20,16 +20,28 @@ namespace helper_api_dotnet_o5.Controllers
         [HttpGet]
         [Route("{cnpj}")]
         [ProducesResponseType(typeof(ConsultaCPNJOutPut), StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        [ProducesResponseType(StatusCodes.Status502BadGateway)]
         public IActionResult Get2(string cnpj)
         {
             var route = $"/{cnpj}";
             var api = new HelperAPI(ENDPOINT);
-            var result = api.MetodoGET<ConsultaCPNJOutPut>(route).Result;
 
-           return Ok(result);
+            try
+            {
+                var result = api.MetodoGET<ConsultaCPNJOutPut>(route).Result;
+
+                if (result != null)
+                    return Ok(result);
+                else
+                    return NotFound();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
 
         }
     }
