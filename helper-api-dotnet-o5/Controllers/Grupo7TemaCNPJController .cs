@@ -29,8 +29,6 @@ namespace helper_api_dotnet_o5.Controllers
 
             try
             {
-                if (cnpj.Length != 14)
-                    return BadRequest("O cpnj não pode ser menor do que 14 caracteres");
 
                 var result = api.MetodoGET<ConsultaCPNJOutPut>(route).Result;
 
