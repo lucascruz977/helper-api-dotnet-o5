@@ -62,7 +62,7 @@ public class ConsultaCPNJOutPut
     public string Bairro { get; set; }
 
     [JsonProperty("capital_social")]
-    public int CapitalSocial { get; set; }
+    public long CapitalSocial { get; set; }
 
     [JsonProperty("cep")]
     public string Cep { get; set; }

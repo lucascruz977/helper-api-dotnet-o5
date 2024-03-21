@@ -29,17 +29,20 @@ namespace helper_api_dotnet_o5.Controllers
 
             try
             {
+                if (cnpj.Length != 14)
+                    return BadRequest("O cpnj não pode ser menor do que 14 caracteres");
+
                 var result = api.MetodoGET<ConsultaCPNJOutPut>(route).Result;
 
-                if (result != null)
+                if (!String.IsNullOrEmpty(result.Cnpj))
                     return Ok(result);
                 else
                     return NotFound();
             }
-            catch (Exception)
+            catch (Exception ex)
             {
 
-                throw;
+                return BadRequest(ex.Message);
             }
 
 
